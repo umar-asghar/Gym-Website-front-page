@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+    background-image: url("images/background-img.jpg");
+    max-width: 100%;
+    height: 100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    
+}
+.navbar{
+    background-color: darkgray;
+    opacity: 0.4;
+    width: 100%;
+    height: 10px;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    
+    
+}
+.navbar ul li a{
+    color:#050505;
+    text-transform: uppercase;
+    text-decoration: double;
+    border: 5px solid transparent;
+    border-radius: 10px;
+    transition: 0.5s;
+    
+}
+.navbar ul li a:hover{
+    background-color:darkslategrey;
+    color: #efefef;
+
+}
+
+.content{
+    width: 100%;
+    top: 30%;
+    font-family: fantasy;
+    text-align: center;
+    position: absolute;
+
+}
+.content h1{
+    color:darkslategrey;
+    font-size: 70px;
+}
+.content p{
+    font-weight: 1000;
+    margin-top: -1%;
+    color:rgb(255, 255, 255);
+}
+button{
+    width: 100px;
+    align-items: center;
+    padding: 10px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 30px;
+    border: 2px solid ;
+    border-color:darkslategrey;
+    cursor: pointer;
+}
+button:hover{
+    background-color:darkslategrey;
+    color: #efefef;
+    transition: 0.3s;
+    animation:  duration timing-function delay iteration-count direction fill-mode;
+
+}
